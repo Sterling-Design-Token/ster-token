@@ -1,3 +1,9 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Solana](https://img.shields.io/badge/Network-Solana-4b0082.svg)
+![Status: Active](https://img.shields.io/badge/Status-Active-blue.svg)
+![Transparency First](https://img.shields.io/badge/Transparency-100%25-brightgreen.svg)
+
+
 # Sterling Design Token (STER)
 
 Official repository for the STER token, documentation, and ecosystem resources.  
