@@ -9,7 +9,7 @@ The Treasury is used exclusively for airdrops, long‑term reserves, and ecosyst
 
 **Wallet:**  
 `STER-Treasury` (public label)  
-https://solscan.io/account/STER-Treasury
+[https://solscan.io/account/STER-Treasury](https://solscan.io/account/BzF7JYXXJV5Arxhz8sQLeLKbRVu8qMd54jYiKCpV5edK#transfers)
 
 This wallet is the long‑term reserve and airdrop wallet for the STER ecosystem.
 
