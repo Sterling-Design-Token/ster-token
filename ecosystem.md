@@ -1,110 +1,129 @@
 # STER Ecosystem Overview
 
-The Sterling Design Token (STER) ecosystem connects on‑chain transparency, marketplace utility, and long‑term community growth.  
-This document provides a high‑level overview of the components that make up the STER ecosystem today and the modules planned for expansion.
+The STER ecosystem is built on transparency, compartmentalization, and strict wallet‑level governance.  
+Each wallet has a single, clearly defined purpose to ensure clean intent, verifiable on‑chain behavior, and long‑term trust.
 
 ---
 
-## 🔹 Core Components
+## 🔹 Core Wallet Structure
 
-### **1. STER Token**
-The foundation of the ecosystem.
-
-- Decimals: 6  
-- Total Supply: 1.84T  
-- Network: Solana  
-- Utility: Marketplace integration, community rewards, ecosystem participation  
-
-**Mint:**  
-https://solscan.io/token/ByzUhVTPHNqy7ZSKtTMq6v5Y4jG91FUmF18NTSeLCK7E
+The STER ecosystem uses four primary wallets, each with a dedicated role and strict boundaries.
 
 ---
 
-### **2. SDMarketplace Integration**
-STER is integrated into the Sterling Design Marketplace, enabling:
+## 🔹 Treasury Wallet (`STER-Treasury`)
 
-- Crypto‑aligned product discovery  
-- Future token‑based incentives  
-- Airdrop participation  
-- Community‑driven product curation  
+**Purpose:**  
+Long‑term reserves, airdrops, and ecosystem stability.
 
-**Marketplace:**  
-https://sterlingdesign.us/crypto
+**Used for:**  
+- Airdrops and community distributions  
+- Long‑term reserve storage  
+- Strategic stability buffers  
+- Governance‑approved, transparency‑logged movements  
 
----
-
-### **3. Transparency Framework**
-A core pillar of the ecosystem.
-
-- **Airdrop Logs:**  
-  https://github.com/Sterling-Design-Token/ster-token/blob/main/airdrops.md
-
-- **Treasury Transparency:**  
-  https://github.com/Sterling-Design-Token/ster-token/blob/main/treasury.md
-
-- **Liquidity Pool Transparency:**  
-  https://github.com/Sterling-Design-Token/ster-token/blob/main/lp.md
-
-- **Verification Guide:**  
-  https://github.com/Sterling-Design-Token/ster-token/blob/main/verify.md
-
-Every component is fully on‑chain and publicly auditable.
+**Not used for:**  
+- Operational payouts  
+- Advisor or moderator payments  
+- Marketing actions or incentives  
+- Daily micro‑trades  
+- LP provisioning or adjustments  
 
 ---
 
-## 🔹 Liquidity & Trading
+## 🔹 Advisors Wallet (`STER-Advisors`)
 
-STER is paired with WSOL on Raydium.
+**Purpose:**  
+Operational payouts and infrastructure costs.
 
-- **Raydium Swap:**  
-  https://raydium.io/swap/?inputMint=sol&outputMint=ByzUhVTPHNqy7ZSKtTMq6v5Y4jG91FUmF18NTSeLCK7E
+**Used for:**  
+- Advisor payments  
+- Moderator fees  
+- Infrastructure and service costs  
+- Contractor payments  
 
-- **LP Token Mint:**  
-  https://solscan.io/account/3kbkFHgKcwWrHCFYt1rXeY81YzC23cnHbHxMucBnpvBm
-
-Liquidity is maintained with long‑term stability in mind.
-
----
-
-## 🔹 Airdrop System
-
-Airdrops are used to:
-
-- Reward early supporters  
-- Encourage marketplace participation  
-- Distribute tokens fairly  
-- Build long‑term community engagement  
-
-**Airdrop #1** is fully documented and verifiable.  
-Future airdrops will follow the same transparency standards.
+**Not used for:**  
+- Airdrops  
+- Marketing actions  
+- Micro‑trades  
+- LP provisioning  
 
 ---
 
-## 🔹 Governance Direction
+## 🔹 Marketing Wallet (`STER-Marketing`)
 
-As the ecosystem grows, governance modules will be added to this repo, including:
+**Purpose:**  
+Growth, incentives, and community engagement.
 
-- Proposal structure  
-- Voting mechanisms  
-- Treasury oversight  
-- Community participation guidelines  
+**Used for:**  
+- Giveaways  
+- Creator boosts  
+- Partnership incentives  
+- Community engagement actions  
 
-Governance will be phased in as the community expands.
-
----
-
-## 🔹 Roadmap (High‑Level)
-
-- Expand transparency modules  
-- Add marketplace‑based token utilities  
-- Introduce governance framework  
-- Grow liquidity depth  
-- Launch additional ecosystem tools  
-- Continue daily on‑chain activity for organic traction  
-
-A detailed roadmap will be added as development progresses.
+**Not used for:**  
+- Operational payouts  
+- Micro‑trades  
+- LP provisioning  
+- Airdrops  
 
 ---
 
-STER is built for transparency, utility, and long‑term ecosystem growth.  
-This repo will continue to evolve as new modules come online.
+## 🔹 Master Wallet (`STER-Master`)
+
+**Purpose:**  
+Daily ecosystem activity and micro‑trades.
+
+**Used for:**  
+- Daily micro‑swaps  
+- Routing verification  
+- Volume shaping  
+- Liquidity smoothing  
+- On‑chain activity to maintain ecosystem health  
+
+**Not used for:**  
+- Airdrops  
+- Operational payouts  
+- Marketing actions  
+- LP provisioning  
+
+This wallet is intentionally visible on charts to maintain transparency around micro‑trade activity.
+
+---
+
+## 🔹 LP Wallet (Launch‑Day Only)
+
+**Purpose:**  
+One‑time creation of the STER–USDC liquidity pool.
+
+**Used for:**  
+- Initial LP deposit  
+- Initial LP ratio setting  
+
+**Not used for:**  
+- Ongoing LP adjustments  
+- Micro‑trades  
+- Airdrops  
+- Operational payouts  
+
+After launch, LP adjustments require governance approval.
+
+---
+
+## 🔹 Ecosystem Principles
+
+- **Separation of responsibilities**  
+  Each wallet has one purpose and one purpose only.
+
+- **Predictable on‑chain behavior**  
+  No wallet performs actions outside its defined scope.
+
+- **Transparency first**  
+  All movements are intentional, logged, and publicly verifiable.
+
+- **Long‑term sustainability**  
+  The ecosystem is designed to avoid ambiguity, misuse, or governance drift.
+
+---
+
+STER is engineered for clarity, trust, and long‑term ecosystem integrity.
