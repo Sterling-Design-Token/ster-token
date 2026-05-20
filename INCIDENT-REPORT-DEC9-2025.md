@@ -30,7 +30,8 @@ on-chain documentation of both the incident and its resolution.
 | December 9, 2025 | Accidental LP removal executed by issuer |
 | December 9-10, 2025 | LP outage — approximately 12-16 hours |
 | December 10, 2025 | Error discovered — LP immediately recreated and restored |
-| December 10, 2025 | Public transparency announcement made to STER Discord community |
+| December 10, 2025 | Public transparency announcement published on Facebook and Discord community |
+| December 10, 2025 | Facebook post URL: https://www.facebook.com/sterling.design.2023/posts/pfbid026fHqVXAkb5R6h3ACy8BE6d6oPpv3AJahW2e1icUKHprc8rx4DXZytJhPP6vxXerbl |
 
 ---
 
@@ -146,7 +147,9 @@ This document provides that context in full.
 1. ✅ LP fully restored within 24 hours of the error
 2. ✅ Additional liquidity added in January 2026
 3. ✅ Additional liquidity added in February 2026
-4. ✅ Formal dispute filed with Blockaid — Ticket [WXV6K9-4ZPN3]
+4. ✅ Public transparency announcement published on Facebook — December 10, 2025
+   https://www.facebook.com/sterling.design.2023/posts/pfbid026fHqVXAkb5R6h3ACy8BE6d6oPpv3AJahW2e1icUKHprc8rx4DXZytJhPP6vxXerbl
+5. ✅ Formal dispute filed with Blockaid — Ticket [WXV6K9-4ZPN3]
 5. ✅ Honeypot classification successfully removed following dispute
 6. ✅ This formal incident report published to GitHub for permanent public record
 7. ✅ lp.md updated to include full chronological LP history
