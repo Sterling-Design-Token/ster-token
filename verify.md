@@ -50,6 +50,11 @@ On each pool page:
 3. On the LP token page, click the **Holders** tab.
 4. The holders list shows who can withdraw liquidity. Locked LP tokens are held by escrow accounts belonging to Streamflow or Jupiter Lock, not by an ordinary wallet.
 
+Direct links to the two LP tokens:
+
+- SOL-STER LP token: https://solscan.io/token/5uFe5w2HCQSb9XBF6VMbqcM9HVkfCwLbA8LMbNz38PvC
+- STER-USDC LP token: https://solscan.io/token/3RGPYknxDMpBHkKjnmh66AjCZsNPLXAuvkbtuHE3dYcA
+
 ---
 
 ## 🔹 4. Verify the Liquidity Locks
@@ -57,15 +62,17 @@ On each pool page:
 **Streamflow locks:**
 
 - SOL-STER, unlocks December 20, 2026: https://app.streamflow.finance/contract/solana/mainnet/8G9mtRAR6cikVMbEQJqnYDQrR2yjb7zQUj5MRLGCqC4x
+- SOL-STER, unlocks July 18, 2028: https://app.streamflow.finance/contract/solana/mainnet/FxGfzfe3WC9Qfd1ixNcyKy2ZLmw6EYQqUHDdYS99qodh
 - STER-USDC, unlocks December 20, 2026: https://app.streamflow.finance/contract/solana/mainnet/DMiCqBQtrRRZGj88NSgvTM1GT7a9FjXJ2Y5JLQiin4mt
 
-On each contract page, confirm the status, the amount, and the unlock date.
+On each contract page, confirm the status, the amount, and the unlock date. Streamflow's public dashboard for the SOL-STER LP token lists both of its locks: https://app.streamflow.finance/token-dashboard/solana/mainnet/5uFe5w2HCQSb9XBF6VMbqcM9HVkfCwLbA8LMbNz38PvC
 
 **Jupiter Lock positions:**
 
-1. Go to https://lock.jup.ag/
-2. In the search box, paste the SDV Treasury wallet, `BzF7JYXXJV5Arxhz8sQLeLKbRVu8qMd54jYiKCpV5edK`, to find the STER-USDC lock that unlocks December 20, 2028.
-3. Paste the Founders wallet, `ByU6iuYR3rCVtrp1pb9szxTeq6BmSH3pPnhYZ9V7ygMV`, to find the Founders Allocation lock that unlocks November 27, 2028.
+- STER-USDC, unlocks December 20, 2028: https://lock.jup.ag/escrow/DLL28qsmqkvPDhZ3eNKpUcSRq5PSbVx5YWd5wh5nGpYu
+- Founders Allocation, unlocks November 27, 2028: go to https://lock.jup.ag/ and paste the Founders wallet, `ByU6iuYR3rCVtrp1pb9szxTeq6BmSH3pPnhYZ9V7ygMV`, into the search box.
+
+On the lock page, confirm the amount, the cliff date, and that both "Who Can Cancel the Contract" and "Who Can Update the Recipient" read None.
 
 The full list of locks is in [lp.md](lp.md) and [treasury.md](treasury.md).
 

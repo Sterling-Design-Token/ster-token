@@ -45,11 +45,11 @@ Last updated: October 2, 2026.
 |----------------|----------|---------|---------------------|
 | SOL-STER liquidity (original) | Streamflow | December 20, 2026 | No |
 | SOL-STER liquidity (second) | Streamflow | July 18, 2028 | No |
-| STER-USDC liquidity (first) | Streamflow | December 20, 2026 | See [lp.md](lp.md) |
+| STER-USDC liquidity (first) | Streamflow | December 20, 2026 | No |
 | STER-USDC liquidity (second) | Jupiter Lock | December 20, 2028 | No |
 | Founders Allocation (270,000,003,476 STER) | Jupiter Lock | November 27, 2028 | No |
 
-Full details, amounts, and links are in [lp.md](lp.md) and [treasury.md](treasury.md).
+Every lock's amount and public link is in [lp.md](lp.md) and [treasury.md](treasury.md).
 
 ---
 

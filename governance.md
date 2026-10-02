@@ -20,7 +20,7 @@ STER is issued and operated by Sterling Design Ventures LLC (SDV), a South Carol
 | **Holder balances** | The token has no freeze authority, so no holder's STER can be frozen. |
 | **Token details** | The metadata is immutable. The name, symbol, and metadata link cannot be changed. |
 | **Founders Allocation** | Locked until November 27, 2028. The lock cannot be canceled and its recipient cannot be changed. |
-| **Liquidity locks** | The SOL-STER locks and the 2028 STER-USDC lock cannot be canceled. See [lp.md](lp.md). |
+| **Liquidity locks** | None of the four liquidity locks can be canceled. See [lp.md](lp.md). |
 
 ---
 

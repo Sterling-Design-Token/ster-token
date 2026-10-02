@@ -12,6 +12,7 @@ Last updated: October 2, 2026.
 |---|---|---|
 | **Exchange** | Raydium | Raydium |
 | **Pool address** | `3kbkFHgKcwWrHCFYt1rXeY81YzC23cnHbHxMucBnpvBm` | `G4BqFYJ3kZe7GKJwNk4eNWrbVYBqz5n6Cs7FWKsKot15` |
+| **LP token** | `5uFe5w2HCQSb9XBF6VMbqcM9HVkfCwLbA8LMbNz38PvC` | `3RGPYknxDMpBHkKjnmh66AjCZsNPLXAuvkbtuHE3dYcA` |
 | **Pooled assets (October 2, 2026)** | 791,198,623 STER and 22.33 SOL | 809,169,162 STER and 2,790.02 USDC |
 | **Liquidity (October 2, 2026)** | About $5,400 | About $5,500 |
 | **Solscan** | https://solscan.io/account/3kbkFHgKcwWrHCFYt1rXeY81YzC23cnHbHxMucBnpvBm | https://solscan.io/account/G4BqFYJ3kZe7GKJwNk4eNWrbVYBqz5n6Cs7FWKsKot15 |
@@ -29,19 +30,23 @@ SDV's liquidity in both pools is locked in four positions.
 
 | Lock | Platform | Amount | Unlocks | Details |
 |------|----------|--------|---------|---------|
-| Original lock | Streamflow | 3,058.98 LP tokens | December 20, 2026 | Immutable. Cannot be canceled. [View contract](https://app.streamflow.finance/contract/solana/mainnet/8G9mtRAR6cikVMbEQJqnYDQrR2yjb7zQUj5MRLGCqC4x) |
-| Second lock | Streamflow | 1,077.54 LP tokens | July 18, 2028 | Cannot be canceled or transferred. Recipient: SDV Treasury wallet. |
+| Original lock | Streamflow | 3,058.976512612 LP tokens (73.85%) | December 20, 2026 | Immutable. Cannot be canceled. [View contract](https://app.streamflow.finance/contract/solana/mainnet/8G9mtRAR6cikVMbEQJqnYDQrR2yjb7zQUj5MRLGCqC4x) |
+| Second lock | Streamflow | 1,077.540742669 LP tokens (26.02%) | July 18, 2028 | Cannot be canceled or transferred. Recipient: SDV Treasury wallet. [View contract](https://app.streamflow.finance/contract/solana/mainnet/FxGfzfe3WC9Qfd1ixNcyKy2ZLmw6EYQqUHDdYS99qodh) |
 
-As of September 30, 2026, these two locks held 99.87% of all SOL-STER LP tokens (73.85% and 26.02%). The remaining 0.13% is held by Streamflow as its fee on the second lock.
+As of October 2, 2026, these two locks hold 99.87% of all SOL-STER LP tokens. The remaining 0.13% (5.387703713 LP tokens) is held by Streamflow as its fee on the second lock. Streamflow's public dashboard for this LP token shows the same figure: https://app.streamflow.finance/token-dashboard/solana/mainnet/5uFe5w2HCQSb9XBF6VMbqcM9HVkfCwLbA8LMbNz38PvC
+
+Current holders: https://solscan.io/token/5uFe5w2HCQSb9XBF6VMbqcM9HVkfCwLbA8LMbNz38PvC
 
 ### STER-USDC pool
 
 | Lock | Platform | Amount | Unlocks | Details |
 |------|----------|--------|---------|---------|
-| First lock | Streamflow | See contract | December 20, 2026 | [View contract](https://app.streamflow.finance/contract/solana/mainnet/DMiCqBQtrRRZGj88NSgvTM1GT7a9FjXJ2Y5JLQiin4mt) |
-| Second lock | Jupiter Lock | 576,777.654137 LP tokens | December 20, 2028 | Created October 2, 2026. Cannot be canceled. The recipient cannot be changed. Recipient: SDV Treasury wallet. |
+| First lock | Streamflow | 906,099.47 LP tokens (61.1%) | December 20, 2026 | Immutable. Cannot be canceled, but can be transferred. [View contract](https://app.streamflow.finance/contract/solana/mainnet/DMiCqBQtrRRZGj88NSgvTM1GT7a9FjXJ2Y5JLQiin4mt) |
+| Second lock | Jupiter Lock | 576,777.654137 LP tokens (38.9%) | December 20, 2028 | Created October 2, 2026. Cannot be canceled. The recipient cannot be changed. Recipient: SDV Treasury wallet. [View lock](https://lock.jup.ag/escrow/DLL28qsmqkvPDhZ3eNKpUcSRq5PSbVx5YWd5wh5nGpYu) |
 
-The Jupiter Lock position can be found at https://lock.jup.ag/ by searching for the SDV Treasury wallet, `BzF7JYXXJV5Arxhz8sQLeLKbRVu8qMd54jYiKCpV5edK`.
+As of October 2, 2026, these two locks hold all STER-USDC LP tokens except 0.000146 of a token left in the SDV Treasury wallet.
+
+Current holders: https://solscan.io/token/3RGPYknxDMpBHkKjnmh66AjCZsNPLXAuvkbtuHE3dYcA
 
 ### What happens on December 20, 2026
 

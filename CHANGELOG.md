@@ -16,6 +16,11 @@ This project follows a simple, date-based changelog format.
 - Replaced the January 2026 `roadmap.md`
 - Added contact details to `SECURITY.md` and `SUPPORT.md`
 
+### Added later the same day
+- Direct links for the July 18, 2028 Streamflow lock and the December 20, 2028 Jupiter lock in `lp.md` and `verify.md`
+- Both LP token addresses, exact locked amounts, and current holder shares in `lp.md`
+- The cancel terms of the first STER-USDC lock, as shown on its Streamflow contract page
+
 ### Corrected
 - `lp.md` listed `AvDg7yXhcR15ryRycqJipBdqwchKJ7yirx831KBew1Zz` as the lock contract. That address is not the lock contract. The Streamflow contract links are now given.
 - `README.md` and `verify.md` labeled `3kbkFHgKcwWrHCFYt1rXeY81YzC23cnHbHxMucBnpvBm` as the LP token mint. It is the SOL-STER pool address.
