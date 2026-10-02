@@ -1,28 +1,24 @@
 # Support & Questions
 
-Thank you for your interest in the Sterling Design Token (STER) ecosystem.  
+Thank you for your interest in the Sterling Design Token (STER) ecosystem.
 This document explains how to get help, ask questions, or report issues.
 
 ---
 
 ## 🔹 Where to Get Help
 
-If you have questions about:
-
-- STER token details  
-- Transparency logs  
-- Marketplace integration  
-- Governance direction  
-- Documentation  
-- On‑chain verification  
-
-…please open an **Issue** in this repository.
+| For | Go to |
+|-----|-------|
+| Questions about STER or the ecosystem | Discord: https://discord.gg/zYg6c7HkhG |
+| Plain-language guides | SchoolSTER Academy: https://schoolster.us |
+| A question for the developer | https://schoolster.us/ask.php |
+| Errors in this repository | Open an **Issue** in this repository |
+| Anything else | info@sterlingdesignventures.us |
 
 ### How to open an Issue:
-1. Go to the **Issues** tab  
-2. Click **New Issue**  
-3. Choose the appropriate category (question, documentation, transparency, etc.)  
-4. Provide a clear description of your question or concern  
+1. Go to the **Issues** tab
+2. Click **New Issue**
+3. Provide a clear description of your question or concern
 
 ---
 
@@ -30,28 +26,26 @@ If you have questions about:
 
 When opening a support issue, please include:
 
-- A clear summary of your question  
-- Any relevant links (Solscan, Raydium, repo files)  
-- Screenshots if helpful  
-- Steps to reproduce (if reporting a problem)  
-
-This helps maintainers respond quickly and accurately.
+- A clear summary of your question
+- Any relevant links (Solscan, Raydium, repo files)
+- Screenshots if helpful
+- Steps to reproduce (if reporting a problem)
 
 ---
 
 ## 🔹 Security Concerns
 
-If your question involves a potential security issue, please refer to:
-
-**`SECURITY.md`**  
-Responsible disclosure guidelines are outlined there.
+If your question involves a potential security issue, do not open a public issue. Follow [SECURITY.md](SECURITY.md) instead.
 
 ---
 
 ## 🔹 Community Channels
 
-Official community channels will be added as they are finalized.  
-Until then, GitHub Issues is the primary support method.
+- **Discord:** https://discord.gg/zYg6c7HkhG
+- **X:** https://x.com/SterlingDesignV
+- **Telegram:** https://t.me/STERLINGDESIGN_STER
+- **Instagram:** https://www.instagram.com/sterlingdesigntoken/
+- **TikTok:** https://www.tiktok.com/@sterlingdesignv
 
 ---
 

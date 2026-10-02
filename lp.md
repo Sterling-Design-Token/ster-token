@@ -1,51 +1,63 @@
-# STER Liquidity Pool (LP) Transparency
+# STER Liquidity Pools and Locks
 
-This page documents the creation, structure, governance, and full history of the STER liquidity pool.
-The LP is designed for long-term stability, predictable behavior, and full public transparency —
-including honest documentation of any incidents that have occurred.
+This page documents STER's two liquidity pools, every lock on the liquidity SDV has provided, and the full history of liquidity actions, including errors and how they were corrected.
 
----
-
-## 🔹 LP Contract Address
-
-**LP Token Mint:**
-3kbkFHgKcwWrHCFYt1rXeY81YzC23cnHbHxMucBnpvBm
-
-**LP Lock Contract:**
-https://solscan.io/account/AvDg7yXhcR15ryRycqJipBdqwchKJ7yirx831KBew1Zz
-
-These addresses are publicly verifiable and serve as the foundation of STER's liquidity structure.
+Last updated: October 2, 2026.
 
 ---
 
-## 🔹 Purpose of the LP
+## 🔹 The Two Pools
 
-The STER–WSOL liquidity pool provides:
+| | SOL-STER pool | STER-USDC pool |
+|---|---|---|
+| **Exchange** | Raydium | Raydium |
+| **Pool address** | `3kbkFHgKcwWrHCFYt1rXeY81YzC23cnHbHxMucBnpvBm` | `G4BqFYJ3kZe7GKJwNk4eNWrbVYBqz5n6Cs7FWKsKot15` |
+| **Pooled assets (October 2, 2026)** | 791,198,623 STER and 22.33 SOL | 809,169,162 STER and 2,790.02 USDC |
+| **Liquidity (October 2, 2026)** | About $5,400 | About $5,500 |
+| **Solscan** | https://solscan.io/account/3kbkFHgKcwWrHCFYt1rXeY81YzC23cnHbHxMucBnpvBm | https://solscan.io/account/G4BqFYJ3kZe7GKJwNk4eNWrbVYBqz5n6Cs7FWKsKot15 |
+| **Live market data** | https://dexscreener.com/solana/3kbkfhgkcwwrhcfyt1rxey81yzc23cnhbhxmucbnpvbm | https://dexscreener.com/solana/g4bqfyj3kze7gkjwnk4enwrbvybqz5n6cs7fwkskot15 |
 
-- Stable trading conditions
-- Predictable price discovery
-- Long-term ecosystem integrity
-- A transparent, locked liquidity base
-- Protection against volatility and manipulation
-
-The LP is a core stability mechanism for the STER token.
-
----
-
-## 🔹 Launch-Day LP Structure
-
-At launch on November 27, 2025, the initial LP was created using:
-
-- A deposit of STER tokens
-- A matching deposit of WSOL
-- A fixed ratio to establish the initial market price
-
-**Launch Transaction:**
-Viewable on Solscan — Master wallet to Raydium pool creation.
+Each pool issues its own LP token. Whoever holds a pool's LP tokens can withdraw that share of the pool's liquidity. A lock places LP tokens in an escrow account until a set date.
 
 ---
 
-## 🔹 LP History — Full Chronological Record
+## 🔹 Locks on SDV's Liquidity
+
+SDV's liquidity in both pools is locked in four positions.
+
+### SOL-STER pool
+
+| Lock | Platform | Amount | Unlocks | Details |
+|------|----------|--------|---------|---------|
+| Original lock | Streamflow | 3,058.98 LP tokens | December 20, 2026 | Immutable. Cannot be canceled. [View contract](https://app.streamflow.finance/contract/solana/mainnet/8G9mtRAR6cikVMbEQJqnYDQrR2yjb7zQUj5MRLGCqC4x) |
+| Second lock | Streamflow | 1,077.54 LP tokens | July 18, 2028 | Cannot be canceled or transferred. Recipient: SDV Treasury wallet. |
+
+As of September 30, 2026, these two locks held 99.87% of all SOL-STER LP tokens (73.85% and 26.02%). The remaining 0.13% is held by Streamflow as its fee on the second lock.
+
+### STER-USDC pool
+
+| Lock | Platform | Amount | Unlocks | Details |
+|------|----------|--------|---------|---------|
+| First lock | Streamflow | See contract | December 20, 2026 | [View contract](https://app.streamflow.finance/contract/solana/mainnet/DMiCqBQtrRRZGj88NSgvTM1GT7a9FjXJ2Y5JLQiin4mt) |
+| Second lock | Jupiter Lock | 576,777.654137 LP tokens | December 20, 2028 | Created October 2, 2026. Cannot be canceled. The recipient cannot be changed. Recipient: SDV Treasury wallet. |
+
+The Jupiter Lock position can be found at https://lock.jup.ag/ by searching for the SDV Treasury wallet, `BzF7JYXXJV5Arxhz8sQLeLKbRVu8qMd54jYiKCpV5edK`.
+
+### What happens on December 20, 2026
+
+Two locks expire on December 20, 2026. SDV intends to claim both positions and relock them for two more years.
+
+---
+
+## 🔹 Correction to an Earlier Version of This Page
+
+An earlier version of this page listed `AvDg7yXhcR15ryRycqJipBdqwchKJ7yirx831KBew1Zz` as the lock contract. That address is not the lock contract. The correct Streamflow contract links are in the tables above.
+
+The earlier version also described only the SOL-STER pool. The STER-USDC pool and its locks are now included.
+
+---
+
+## 🔹 Liquidity History
 
 ### Event 1 — Initial LP Creation
 - **Date:** November 27, 2025
@@ -64,6 +76,8 @@ Viewable on Solscan — Master wallet to Raydium pool creation.
 - **Cause:** Operational error by the token issuer — parameters entered in wrong order during a swap attempt. This was not intentional. No user funds were stolen or misappropriated.
 - **Duration of outage:** Approximately 12-16 hours (discovered the following morning)
 - **Status:** ⚠️ Error — corrected within 24 hours (see Event 3)
+
+The full report is in [INCIDENT-REPORT-DEC9-2025.md](INCIDENT-REPORT-DEC9-2025.md).
 
 ---
 
@@ -94,42 +108,45 @@ Viewable on Solscan — Master wallet to Raydium pool creation.
 
 ---
 
-## 🔹 Governance Rules for LP Management
+### Event 6 — STER-USDC Liquidity Added and Held Unlocked
+- **Date:** About January 14, 2026
+- **Action:** Liquidity added to the STER-USDC pool from the SDV Master wallet. The resulting 576,777.654137 LP tokens were moved to a separate SDV wallet, `DKUqEhg1kEp6DowxPtxRksixp6bQMMwKj5Gnbv4DMyYb`.
+- **Note:** These LP tokens were not placed in a lock at that time. They were about 38.9% of the STER-USDC LP tokens. They stayed in that wallet, unmoved, until Event 8.
+- **Status:** ⚠️ Held unlocked until October 2, 2026 (see Event 8)
 
-To maintain transparency and prevent misuse, the LP follows these governance rules:
+---
+
+### Event 7 — SOL-STER Liquidity Added and Locked to 2028
+- **Date:** July 18, 2026
+- **Action:** Additional liquidity added to the SOL-STER pool, and the new LP tokens locked on Streamflow until July 18, 2028
+- **Deposit transaction:**
+`2T8U2kLiYipjR5A8JB1YWhJtRKE8P9QNinxNdanxoNrhvreQ9Hogic9V1u6cNVHaMBxDniZvVLsnms1ZiDhxpa1R`
+- **Status:** ✅ Completed successfully
+
+---
+
+### Event 8 — Remaining STER-USDC LP Locked
+- **Date:** October 2, 2026
+- **Action:** The 576,777.654137 STER-USDC LP tokens from Event 6 were locked on Jupiter Lock until December 20, 2028
+- **Terms:** Full amount unlocks on one date. Cannot be canceled. The recipient cannot be changed. Recipient: SDV Treasury wallet.
+- **Status:** ✅ Completed successfully
+
+---
+
+## 🔹 Rules for LP Management
 
 - No LP tokens are used for operational expenses
 - No LP tokens are used for marketing or incentives
 - No LP tokens are used for micro-trades
-- Any future LP adjustments will be documented in this file immediately
+- Any future LP adjustments will be documented in this file
 - All LP actions are verifiable on Solscan
-
-**Note on the December 9th Event:**
-The accidental liquidity removal on December 9, 2025 occurred before formal governance documentation was in place. It is documented here in full transparency as part of our commitment to honest record-keeping. The correction was made promptly and the pool has remained stable since.
-
----
-
-## 🔹 Current LP Status
-
-- **Status:** Active and stable on Raydium
-- **Pool:** STER-WSOL
-- **LP Lock:** Active — locked until December 20, 2026
-- **Lock Contract:** AvDg7yXhcR15ryRycqJipBdqwchKJ7yirx831KBew1Zz
 
 ---
 
 ## 🔹 Verification
 
-All LP activity is publicly visible on Solscan.
-To verify:
-
-1. Open the LP Token Mint address on Solscan
-2. Review all historical transactions
-3. Cross-reference Event 2 and Event 3 transaction hashes above
-4. Confirm liquidity restoration exceeded original amount
-5. Confirm pool has remained stable since December 10, 2025
+Steps for checking each pool and lock yourself are in [verify.md](verify.md).
 
 ---
 
-STER is committed to transparent, stable, and verifiable liquidity management —
-including honest documentation of errors and how they were corrected.
+STER is committed to transparent, stable, and verifiable liquidity management, including honest documentation of errors and how they were corrected.

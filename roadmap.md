@@ -1,81 +1,55 @@
 # STER Roadmap
 
-This roadmap outlines the development direction for the Sterling Design Token ecosystem.  
-It includes completed milestones, active work, and upcoming phases that support long‑term transparency, utility, and ecosystem growth.
+This page lists what has been completed and the dates already scheduled. It replaces the January 2026 roadmap.
+
+Last updated: October 2, 2026.
 
 ---
 
-## 🔹 Completed Milestones
+## 🔹 Completed
 
-### **Token & On‑Chain Foundations**
-- STER mint deployed on Solana  
-- Metadata hosted and verified  
-- Liquidity pool created (STER–WSOL)  
-- LP token mint established  
-- Initial reserves added  
+### November and December 2025
+- STER launched on Solana (November 27, 2025)
+- SOL-STER and STER-USDC liquidity pools opened on Raydium
+- Accidental liquidity removal on December 9 corrected within 24 hours (see [INCIDENT-REPORT-DEC9-2025.md](INCIDENT-REPORT-DEC9-2025.md))
+- First liquidity locks created, running to December 20, 2026
 
-### **Transparency Framework**
-- Airdrop #1 Transparency Log published  
-- Treasury transparency file created  
-- Liquidity pool transparency file created  
-- Verification guide published  
-- Ecosystem overview published  
+### First half of 2026
+- Ecosystem properties launched and connected under one holder-tier system
+- GameSTER play-to-earn and the Explorer Quest opened
+- Holder dashboard ("My STER Perks") launched
+- Incident report published (May 20, 2026)
 
-### **SDMarketplace Integration**
-- `/crypto` page created  
-- STER transparency card added  
-- Airdrop transparency section added  
-- GitHub repo linked for public verification  
+### Third quarter of 2026
+- Additional SOL-STER liquidity added and locked to July 18, 2028
+- SchoolSTER Academy launched
+- Founders Allocation locked on Jupiter Lock until November 27, 2028 (August 28, 2026)
+- Mint authority revoked (September 20, 2026)
+- SD Books moved to its own site, sdbooks.us (September 26, 2026)
+
+### October 2026
+- Remaining STER-USDC liquidity locked on Jupiter Lock until December 20, 2028 (October 2, 2026)
+- This repository brought up to date (October 2, 2026)
 
 ---
 
 ## 🔹 In Progress
 
-### **Ecosystem Infrastructure**
-- Expansion of GitHub documentation  
-- Additional transparency modules  
-- Marketplace‑based STER utilities  
-- Daily organic on‑chain activity  
-
-### **Community & Operations**
-- Continued micro‑swap routines  
-- Ongoing ecosystem checks  
-- Cross‑platform announcement automation  
-- Mod/admin infrastructure refinement  
+- A written treasury policy covering each SDV wallet's purpose, limits on movements, and regular public reporting
 
 ---
 
-## 🔹 Upcoming Phases
+## 🔹 Scheduled Dates
 
-### **Phase 1 — Transparency Expansion**
-- Treasury inflow/outflow categorization  
-- LP lock status documentation  
-- Governance structure draft  
-- Multi‑airdrop indexing  
-
-### **Phase 2 — Marketplace Utility**
-- STER‑based incentives  
-- Token‑gated marketplace features  
-- Community reward mechanisms  
-- Product‑linked token bonuses  
-
-### **Phase 3 — Governance Framework**
-- Proposal submission structure  
-- Voting mechanism outline  
-- Treasury oversight guidelines  
-- Community participation rules  
-
-### **Phase 4 — Ecosystem Growth**
-- Additional liquidity depth  
-- Expanded marketplace integrations  
-- Cross‑platform presence  
-- Long‑term stability initiatives  
+| Date | What happens |
+|------|--------------|
+| December 20, 2026 | The first SOL-STER and STER-USDC locks expire. SDV intends to relock both for two more years. |
+| July 18, 2028 | The second SOL-STER lock unlocks |
+| November 27, 2028 | The Founders Allocation lock unlocks |
+| December 20, 2028 | The second STER-USDC lock unlocks |
 
 ---
 
-## 🔹 Notes
+## 🔹 Removed From the Earlier Roadmap
 
-This roadmap is a living document and will evolve as the ecosystem grows.  
-STER is built for transparency, utility, and long‑term sustainability.
-
-Updates will be added as new milestones are completed.
+The January 2026 roadmap listed "continued micro-swap routines" and a planned token-holder voting framework. The micro-swap practice was discontinued around April 2026. No voting framework is currently planned.

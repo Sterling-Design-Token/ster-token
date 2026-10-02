@@ -1,129 +1,62 @@
 # STER Ecosystem Overview
 
-The STER ecosystem is built on transparency, compartmentalization, and strict wallet‑level governance.  
-Each wallet has a single, clearly defined purpose to ensure clean intent, verifiable on‑chain behavior, and long‑term trust.
+STER is the utility token of the Sterling Design Ventures (SDV) ecosystem. This page lists the ten live SDV properties and what STER does on each.
+
+Last updated: October 2, 2026.
 
 ---
 
-## 🔹 Core Wallet Structure
+## 🔹 The Ten Properties
 
-The STER ecosystem uses four primary wallets, each with a dedicated role and strict boundaries.
-
----
-
-## 🔹 Treasury Wallet (`STER-Treasury`)
-
-**Purpose:**  
-Long‑term reserves, airdrops, and ecosystem stability.
-
-**Used for:**  
-- Airdrops and community distributions  
-- Long‑term reserve storage  
-- Strategic stability buffers  
-- Governance‑approved, transparency‑logged movements  
-
-**Not used for:**  
-- Operational payouts  
-- Advisor or moderator payments  
-- Marketing actions or incentives  
-- Daily micro‑trades  
-- LP provisioning or adjustments  
+| Property | Address | What it is |
+|----------|---------|------------|
+| **Sterling Design Ventures** | https://sterlingdesignventures.us | Company site and ecosystem hub |
+| **Coin-STER** | https://coin-ster.us | STER token site: how to get STER, the Explorer Quest, charts, and lock links |
+| **GameSTER** | https://gamester.us | Free browser games that earn Experience Points (EP) |
+| **SD Marketplace** | https://sdmarketplace.us | Online store |
+| **STER Auctions** | https://sterauctions.com | Online auctions |
+| **WinsterClub** | https://winsterclub.com | Sweepstakes casino hub and STER giveaways |
+| **STERTools** | https://stertools.us | Directory of Solana and Web3 tools |
+| **SchoolSTER Academy** | https://schoolster.us | Knowledge base for STER and the ecosystem |
+| **SD Books** | https://sdbooks.us | Published books under the Sterling Design pen name |
+| **Sterling Design Web** | https://sterlingdesignweb.us | Web design services |
 
 ---
 
-## 🔹 Advisors Wallet (`STER-Advisors`)
+## 🔹 What STER Does Today
 
-**Purpose:**  
-Operational payouts and infrastructure costs.
+- **GameSTER:** players redeem EP for STER at 100 EP = 0.1 STER.
+- **Explorer Quest (Coin-STER):** four tiers of tasks pay up to 300,000 STER in total. No purchase is required.
+- **SD Marketplace:** holders unlock a discount of 5% to 25% by tier.
+- **STER Auctions:** holders of 50,000,000 STER or more get smaller bid increments, priority on tied bids, and exemption from anti-sniping extensions.
+- **WinsterClub:** holders of 25,000,000 STER or more can enter the VIP room.
+- **STERTools:** some tools are reserved for holders.
+- **SD Books:** holders of 250,000 STER or more get early access to the next unreleased title.
 
-**Used for:**  
-- Advisor payments  
-- Moderator fees  
-- Infrastructure and service costs  
-- Contractor payments  
-
-**Not used for:**  
-- Airdrops  
-- Marketing actions  
-- Micro‑trades  
-- LP provisioning  
+A holder can check their tier on every property at https://coin-ster.us/dashboard.html.
 
 ---
 
-## 🔹 Marketing Wallet (`STER-Marketing`)
+## 🔹 Holder Tiers
 
-**Purpose:**  
-Growth, incentives, and community engagement.
+| Tier | STER held |
+|------|-----------|
+| Bronze | 25,000,000 or more |
+| Silver | 100,000,000 or more |
+| Gold | 500,000,000 or more |
+| Diamond | 2,000,000,000 or more |
+| Sanctuary Elite | 5,000,000,000 or more |
 
-**Used for:**  
-- Giveaways  
-- Creator boosts  
-- Partnership incentives  
-- Community engagement actions  
-
-**Not used for:**  
-- Operational payouts  
-- Micro‑trades  
-- LP provisioning  
-- Airdrops  
+Tiers are read from the holder's wallet balance on-chain.
 
 ---
 
-## 🔹 Master Wallet (`STER-Master`)
+## 🔹 SDV Wallets
 
-**Purpose:**  
-Daily ecosystem activity and micro‑trades.
-
-**Used for:**  
-- Daily micro‑swaps  
-- Routing verification  
-- Volume shaping  
-- Liquidity smoothing  
-- On‑chain activity to maintain ecosystem health  
-
-**Not used for:**  
-- Airdrops  
-- Operational payouts  
-- Marketing actions  
-- LP provisioning  
-
-This wallet is intentionally visible on charts to maintain transparency around micro‑trade activity.
+SDV holds STER in five wallets: Master, Treasury, Founders, Marketing, and Advisors. Their addresses, balances, and lock status are in [treasury.md](treasury.md). SDV's liquidity positions and their locks are in [lp.md](lp.md).
 
 ---
 
-## 🔹 LP Wallet (Launch‑Day Only)
+## 🔹 A Practice That Has Ended
 
-**Purpose:**  
-One‑time creation of the STER–USDC liquidity pool.
-
-**Used for:**  
-- Initial LP deposit  
-- Initial LP ratio setting  
-
-**Not used for:**  
-- Ongoing LP adjustments  
-- Micro‑trades  
-- Airdrops  
-- Operational payouts  
-
-After launch, LP adjustments require governance approval.
-
----
-
-## 🔹 Ecosystem Principles
-
-- **Separation of responsibilities**  
-  Each wallet has one purpose and one purpose only.
-
-- **Predictable on‑chain behavior**  
-  No wallet performs actions outside its defined scope.
-
-- **Transparency first**  
-  All movements are intentional, logged, and publicly verifiable.
-
-- **Long‑term sustainability**  
-  The ecosystem is designed to avoid ambiguity, misuse, or governance drift.
-
----
-
-STER is engineered for clarity, trust, and long‑term ecosystem integrity.
+Earlier versions of this page said the Master wallet made daily micro-swaps for "routing verification," "volume shaping," and "liquidity smoothing." SDV discontinued that practice around April 2026. No SDV wallet trades STER to influence volume or price.
